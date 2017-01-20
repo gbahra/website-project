@@ -56,10 +56,8 @@ h1, h2, h3{
 .parallax {
     /* The image used */
     background-image: url("http://e0.365dm.com/16/02/16-9/20/wenger-arsene-arsenal_3412029.jpg?20160206225520");
-
     /* Set a specific height */
     min-height: 100vh;
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -70,6 +68,16 @@ h1, h2, h3{
 /*------------------------------------
  timeline styles
 ------------------------------------*/
+#timeline{
+   background-image: url("http://e0.365dm.com/16/02/16-9/20/wenger-arsene-arsenal_3412029.jpg?20160206225520");
+    /* Set a specific height */
+    min-height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .path-container {
   margin-top: 50px;
   margin-bottom: 70px;
@@ -177,5 +185,17 @@ h1, h2, h3{
 }
 
 
+/*------------------------------------
+ bottom styles
+------------------------------------*/
 
-
+#bottom{
+   background-image: url("http://e0.365dm.com/16/02/16-9/20/wenger-arsene-arsenal_3412029.jpg?20160206225520");
+    /* Set a specific height */
+    min-height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

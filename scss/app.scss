@@ -1,9 +1,7 @@
 @charset 'utf-8';
-
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
-
 @include foundation-global-styles;
 @include foundation-grid;
 // @include foundation-flex-grid;
@@ -69,7 +67,6 @@ h1, h2, h3{
  timeline styles
 ------------------------------------*/
 #timeline{
-   background-image: url("http://e0.365dm.com/16/02/16-9/20/wenger-arsene-arsenal_3412029.jpg?20160206225520");
     /* Set a specific height */
     min-height: 100vh;
     /* Create the parallax scrolling effect */
@@ -130,7 +127,7 @@ h1, h2, h3{
   top: 1800px;
   left: 50%;
   z-index: 0;
-  height: 1050px;
+  height: 950px;
 }
 
 /*------------------------------------
@@ -190,9 +187,10 @@ h1, h2, h3{
 ------------------------------------*/
 
 #bottom{
-   background-image: url("http://e0.365dm.com/16/02/16-9/20/wenger-arsene-arsenal_3412029.jpg?20160206225520");
+   background-image: url("http://allstarinstallations.net/wp-content/uploads/2016/02/handyman-background.jpg");
     /* Set a specific height */
     min-height: 100vh;
+    min-width: 100vw;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;

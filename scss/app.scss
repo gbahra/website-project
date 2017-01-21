@@ -67,17 +67,31 @@ h1, h2, h3{
  timeline styles
 ------------------------------------*/
 section {
+  background-image: url("http://wallpapercave.com/wp/ImSH5gM.jpg");
   height: 100vh;
   .path-text {
     padding: 20vh 10%;
     text-align: center;
   }
 }
+#employment1{
+  background-image: url("http://wallpapercave.com/wp/ImSH5gM.jpg");
+  height:105vh;
+}
 
+#employment2{
+  background-image: url("http://images.fineartamerica.com/images-medium-large-5/birch-forest-in-black-and-white-douglas-taylor.jpg");
+  height:105vh;
+}
+#employment3{
+  background-image: url("http://themepack.me/i/c/749x468/media/g/689/wood-theme-bu9.jpg");
+  height:105vh;
+}
+#employment4{
+  background-image: url("http://3.bp.blogspot.com/-BTOK9DTwWMQ/TpRlc6avRdI/AAAAAAAACts/xi1_bqHdRPg/s1600/Best+top-desktop-hd-wall-wood-wallpaper-wood-wallpapers-wall-picture-image-28.jpg");
+   height:105vh;
+}
 #timeline{
-    background-image: url("seigaiha.png");
-    /* Set a specific height */
-    max-height: 100vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -93,7 +107,7 @@ section {
   top: 980px;
   left: 65%;
   z-index: 0;
-  height:80%;
+  height:60%;
 }
 #line2 {
   background: #ddd;
@@ -104,7 +118,7 @@ section {
   top: 1770px;
   left: 65%;
   z-index: 0;
-  height:80%;
+  height:60%;
 }
 #line3 {
   background: #ddd;
@@ -115,7 +129,7 @@ section {
   top: 2600px;
   left: 65%;
   z-index: 0;
-  height:80%;
+  height:60%;
 }
 #line4 {
   background: #ddd;
@@ -126,7 +140,7 @@ section {
   top: 3400px;
   left: 65%;
   z-index: 0;
-  height:80%;
+  height:60%;
 }
 .circle{
   background-color: #ccc;
@@ -137,16 +151,13 @@ section {
   position: relative;
   margin-bottom: 50px;
   z-index: 2;
-  top: 20%;
+  top: 10%;
   left: 62.5%;
 }
-
 .path-text {
   float:left;
   width:40vw;
 }
-
-
 /*------------------------------------
  medium timeline styles
 ------------------------------------*/

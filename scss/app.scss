@@ -84,15 +84,46 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
-  .line {
+#line1 {
   background: #ddd;
   background-color: black;
   width: 2px;
   bottom: 0;
   position: absolute;
   top: 980px;
+  left: 65%;
+  z-index: 0;
+  height:80%;
+}
+#line2 {
+  background: #ddd;
+  background-color: black;
+  width: 2px;
+  bottom: 0;
+  position: absolute;
+  top: 1770px;
+  left: 65%;
+  z-index: 0;
+  height:80%;
+}
+#line3 {
+  background: #ddd;
+  background-color: black;
+  width: 2px;
+  bottom: 0;
+  position: absolute;
+  top: 2600px;
+  left: 65%;
+  z-index: 0;
+  height:80%;
+}
+#line4 {
+  background: #ddd;
+  background-color: black;
+  width: 2px;
+  bottom: 0;
+  position: absolute;
+  top: 3400px;
   left: 65%;
   z-index: 0;
   height:80%;
@@ -113,7 +144,6 @@ section {
 .path-text {
   float:left;
   width:40vw;
-
 }
 
 
@@ -125,7 +155,6 @@ section {
  .path-text{
    float:left;
    width:50vw;
-   background-color:red;
      }
    }
 
@@ -134,54 +163,55 @@ section {
  .path-text{
    float:left;
    width:50vw;
-   background-color:red;
      }
-  .line{
+  #line1{
     left: 66%;
    }
+    #line2{
+    left: 66%;
+   }
+    #line3{
+    left: 66%;
+   }
+    #line4{
+    left: 66%;
+   }
+
   }
    @media only screen and  (max-width: 1000px) {
-
-
  .line{
   left:67%;
  }
+}
  @media only screen and  (max-width: 800px) {
 
  .path-text{
    float:left;
    width:100vw;
-   background-color:blue;
      }
  .circle{
    width:0px;
    height:0px;
  }
- .line{
+ #line1{
+  width:0px;
+   height:0px;
+ }
+  #line2{
+  width:0px;
+   height:0px;
+ }
+  #line3{
+  width:0px;
+   height:0px;
+ }
+  #line4{
   width:0px;
    height:0px;
  }
 
  }
 
-
-
-
-// // // ------------------------------------
-// // //  mobile timeline styles
-// // // ------------------------------------
-//  @media only screen and (max-width: 767px) {
-//   .path-container {
-//      text-align: left;
-//    }
-//  .circle {
-//      background-color:white;
-//      top:60%;
-//         }
-//  .line{
-//    background-color:white;
-//  }
-//  }
 /*------------------------------------
  bottom styles
 ------------------------------------*/

@@ -84,48 +84,8 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.path-container {
-  margin-top: 50px;
-  margin-bottom: 70px;
-}
-.path-container .path-item h1 {
-  text-align: center;
-  margin-bottom: 80px;
-}
-.path-container .path-item h3 {
-  margin-bottom: 10px;
-  line-height: 1.15;
-}
-.path-container .path-item p {
-  font-size: emCalc(16px);
-  line-height: 1.7;
-  margin-bottom: 25px;
-}
-.path-container .path-item a {
-  font-weight: bold;
-  font-size: emCalc(14px);
-}
-.path-container .path-item  {
-  font-weight: bold;
-  font-size: emCalc(14px);
 
-}
-.path-container .path-item .circle {
-  background-color: #ccc;
-  background-size: 50px 50px;
-  border-radius: 50%;
-  width: 70px;
-  height: 70px;
-  position: relative;
-  margin-bottom: 50px;
-  z-index: 2;
-}
-.path-container .path-item .circle.circle-left {
-  left:78%;
-}
-.path-container .path-item .circle.circle-right {
-  right: -78%;
-}
+
   .line {
   background: #ddd;
   background-color: black;
@@ -148,67 +108,80 @@ section {
   z-index: 2;
   top: 20%;
   left: 62.5%;
+}
 
+.path-text {
+  float:left;
+  width:40vw;
 
 }
-.left{
-  //float: left;
-  //display:inline-block;
-  //background-color:red;
-  //margin-right: 65%;
-}
+
 
 /*------------------------------------
  medium timeline styles
 ------------------------------------*/
-@media only screen and (max-width: 800px) and (min-width: 768px) {
+ @media only screen and  (max-width: 1400px) {
 
-  .circle {
-    background-color:white;
-    top:60%;
-  }
-.line{
-  background-color:white;
-}
-  .line {
-    display: none !important;
-  }
-  .large-5.columns.path-text {
-    width: 10%;
-    right: 0;
+ .path-text{
+   float:left;
+   width:50vw;
+   background-color:red;
+     }
+   }
 
-  }
-  .path-item .large-7 {
-    width: 25%;
-  }
-  .push-5 {
-    left: 0;
-    float: right;
-  }
-  .circle-right {
-    float: left;
-    right: 0px !important;
-  }
-  .circle-left {
-    left: 0px !important;
-  }
-}
-/*------------------------------------
- mobile timeline styles
-------------------------------------*/
-@media only screen and (max-width: 767px) {
-  .path-container {
-    text-align: left;
-  }
-.circle {
-    background-color:white;
-    top:60%;
-  }
-.line{
-  background-color:white;
-}
+ @media only screen and  (max-width: 1100px) {
 
-}
+ .path-text{
+   float:left;
+   width:50vw;
+   background-color:red;
+     }
+  .line{
+    left: 66%;
+   }
+  }
+   @media only screen and  (max-width: 1000px) {
+
+
+ .line{
+  left:67%;
+ }
+ @media only screen and  (max-width: 800px) {
+
+ .path-text{
+   float:left;
+   width:100vw;
+   background-color:blue;
+     }
+ .circle{
+   width:0px;
+   height:0px;
+ }
+ .line{
+  width:0px;
+   height:0px;
+ }
+
+ }
+
+
+
+
+// // // ------------------------------------
+// // //  mobile timeline styles
+// // // ------------------------------------
+//  @media only screen and (max-width: 767px) {
+//   .path-container {
+//      text-align: left;
+//    }
+//  .circle {
+//      background-color:white;
+//      top:60%;
+//         }
+//  .line{
+//    background-color:white;
+//  }
+//  }
 /*------------------------------------
  bottom styles
 ------------------------------------*/

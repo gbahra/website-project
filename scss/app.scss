@@ -63,8 +63,7 @@ section>div>div{
   margin-top:5%;
 }
 #skills{
-  width:30vw;
-  background-color:red;
+
 }
 .parallax{
 
@@ -192,23 +191,19 @@ section {
     /* Set a specific height */
     height: 100vh;
     max-width: 100vw;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    div{
-      #skills{
-        width: 40%;
-        background-color: white;
 
-      }
+    div{
+     .card{
+      margin-top:30%;
+      margin-left:5%;
+      max-width:90%;
+     }
     }
 }
 .card{
   display:inline-block;
   float: left;
-  top:30%;
+  top:20%;
 
   .content{
     h3{

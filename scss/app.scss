@@ -50,14 +50,19 @@
 
 body{
   background-color:#D0BCD5;
-  font-size: 18px;
+  font-size: 17px;
+  font-family: Ubuntu;
+
 }
 
 #bio{
   margin-top: 20%;
 }
-
+.card-divider{
+  text-align: center;
+}
 h1, h2, h3{
+
   text-align:center;
   background-color: #534B62;
   color: #A499B3;
